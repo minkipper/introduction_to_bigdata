@@ -1,0 +1,63 @@
+﻿{
+   machine: {
+    platform: Windows-11-10.0.22631-SP0,
+    processor: AMD Ryzen 5 7500F 6-Core Processor,
+    python: 3.12.0
+  },
+  runs: [
+    {
+      n: 250,
+      brute_s: 0.08,
+      brute_calls: 31125,
+      brute_peak_bytes: 184320,
+      lsh_s: 0.12,
+      lsh_calls: 35,
+      lsh_peak_bytes: 819200
+    },
+    {
+      n: 500,
+      brute_s: 0.31,
+      brute_calls: 124750,
+      brute_peak_bytes: 358400,
+      lsh_s: 0.23,
+      lsh_calls: 78,
+      lsh_peak_bytes: 1536000
+    },
+    {
+      n: 1000,
+      brute_s: 1.24,
+      brute_calls: 499500,
+      brute_peak_bytes: 696320,
+      lsh_s: 0.46,
+      lsh_calls: 162,
+      lsh_peak_bytes: 2969600
+    },
+    {
+      n: 2000,
+      brute_s: 4.96,
+      brute_calls: 1999000,
+      brute_peak_bytes: 1331200,
+      lsh_s: 0.93,
+      lsh_calls: 330,
+      lsh_peak_bytes: 5836800
+    },
+    {
+      n: 4000,
+      brute_s: 19.82,
+      brute_calls: 7998000,
+      brute_peak_bytes: 2662400,
+      lsh_s: 1.88,
+      lsh_calls: 680,
+      lsh_peak_bytes: 11468800
+    },
+    {
+      n: 8000,
+      brute_s: 79.50,
+      brute_calls: 31996000,
+      brute_peak_bytes: 5324800,
+      lsh_s: 3.79,
+      lsh_calls: 1390,
+      lsh_peak_bytes: 22937600
+    }
+  ]
+}
