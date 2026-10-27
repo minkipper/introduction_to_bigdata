@@ -1,0 +1,65 @@
+{
+  "runs": [
+    {
+      "support": 400,
+      "frequent_pairs": 249,
+      "peak_counters": 10585,
+      "seconds": 0.43008214099999975,
+      "peak_bytes": 1058959
+    },
+    {
+      "support": 200,
+      "frequent_pairs": 776,
+      "peak_counters": 58626,
+      "seconds": 0.7627448139999995,
+      "peak_bytes": 6385684
+    },
+    {
+      "support": 100,
+      "frequent_pairs": 2244,
+      "peak_counters": 273701,
+      "seconds": 1.1968344389999999,
+      "peak_bytes": 26529780
+    },
+    {
+      "support": 50,
+      "frequent_pairs": 6397,
+      "peak_counters": 820259,
+      "seconds": 2.143841565999999,
+      "peak_bytes": 102427292
+    },
+    {
+      "support": 25,
+      "frequent_pairs": 17045,
+      "peak_counters": 893456,
+      "seconds": 2.4558764800000006,
+      "peak_bytes": 102418236
+    },
+    {
+      "support": 12,
+      "frequent_pairs": 43116,
+      "peak_counters": 893456,
+      "seconds": 2.4079206170000003,
+      "peak_bytes": 102718732
+    },
+    {
+      "support": 6,
+      "frequent_pairs": 101938,
+      "peak_counters": 893456,
+      "seconds": 2.576243374999999,
+      "peak_bytes": 119356444
+    },
+    {
+      "support": 3,
+      "frequent_pairs": 250054,
+      "peak_counters": 893456,
+      "seconds": 2.7945732859999985,
+      "peak_bytes": 156592388
+    }
+  ],
+  "machine": {
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "processor": "x86_64",
+    "python": "3.12.3"
+  }
+}
